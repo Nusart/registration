@@ -1,0 +1,51 @@
+<?php
+    $servername= "localhost";
+    $username= "root";
+    $password= "";
+    $dbname= "iiserb";
+    $conn= mysqli_connect($servername,$username,$password,$dbname);
+    if(!$conn)
+        die("Oops! Database connection failure. Please try again.");
+    //echo "Connected.";
+    $name=$_REQUEST["name"];
+    //echo $sname;
+    $roll=$_REQUEST["roll"];
+    //echo " ".$roll;
+    $dob=$_REQUEST["dob"];
+    //echo " ".$dob;
+    $gen=$_REQUEST["gen"];
+    //echo " ".$gen;
+    $phone=$_REQUEST["phone"];
+    //echo " ".$phone;
+    $email=$_REQUEST["email"];
+    //echo " ".$email;
+    $add=$_REQUEST["add"];
+    //echo " ".$add;
+    $pin=$_REQUEST["pin"];
+    //echo " ".$pin;
+    $fname=$_REQUEST["fname"];
+    //echo " ".$fname;
+    $fphone=$_REQUEST["fphone"];
+    //echo " ".$fphone;
+    $femail=$_REQUEST["femail"];
+    //echo " ".$femail;
+    $focc=$_REQUEST["focc"];
+    //echo " ".$focc;
+    $finc=$_REQUEST["finc"];
+    //echo " ".$finc;
+    $mname=$_REQUEST["mname"];
+    //echo " ".$mname;
+    $mphone=$_REQUEST["mphone"];
+    //echo " ".$mphone;
+    $memail=$_REQUEST["memail"];
+    //echo " ".$memail;
+    $mocc=$_REQUEST["mocc"];
+    //echo " ".$mocc;
+    $minc=$_REQUEST["minc"];
+    //echo " ".$minc;
+    $query = "INSERT INTO sreg VALUES ('$name', '$roll', '$dob', '$gen', '$phone', '$email', '$add', '$pin', '$fname', '$fphone', '$femail', '$focc', '$finc', '$mname', '$mphone', '$memail', '$mocc', '$minc')";
+    $data=mysqli_query($conn,$query);
+    if(!$data)
+        die ("Sorry, Record insertion was unsuccessful.<br/>Please try again.");
+    echo "Yay!!! Record inserted successfully.";
+?>

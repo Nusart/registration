@@ -1,0 +1,65 @@
+body
+{
+    background-color: #fdf5e6;
+}
+.img-responsive 
+{
+    height: 5px;
+    width: 5px;
+}
+.fields
+{
+    text-align: center;
+    color: black;
+}
+form
+{
+    margin: 50px 50px;
+    background-color: white;
+    padding: 30px 100px 50px 110px;
+    border-radius: 50px;    
+}
+fieldset 
+{
+	border: 1px solid #ddd !important;
+	margin: 0;
+	xmin-width: 0;
+	padding: 10px;       
+	position: relative;
+	border-radius:4px;
+	background-color:#f5f5f5;
+	padding-left:10px!important;
+}	
+legend
+{
+	font-size:18px;
+	margin-bottom: 0px; 
+	width: 20%; 
+	border: 1px solid #ddd;
+	border-radius: 4px; 
+	padding: 5px 5px 5px 10px; 
+	background-color: #ffffff;
+}
+td
+{
+    padding: 0px 15px 0px 15px;
+}
+td input,textarea,select
+{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #A6A6A6;
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+.btn
+{
+    color: black;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+}
+#btn
+{
+    margin: 0% 0% 0% 80%;
+}

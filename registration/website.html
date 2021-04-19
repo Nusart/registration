@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>IISERB</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script> 
+        <link href="website.css" rel="stylesheet" type="text/css"/>
+        <link rel="icon" href="images/IISERB_Logo.png" type="image/gif">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10">
+                    <a class="navbar-brand" href="website.php"><img src="images/logo.png" class="img-responsive" title="IISERB"/></a>
+                </div>
+                <div class="col-lg-2" id="home_webmail">
+                    <br/><a href="website.php"><img src="images/home.ico"/> Home </a> 
+                    <span style="color:#000">|</span> 
+                    <a href="http://newmail.iiserb.ac.in/a/iiserb.ac.in" target="_blank"><img src="images/webmail.png"/> Webmail</a><br/><br/>
+                    <input type="text" placeholder="&nbsp;Search" id="search"/>                   
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg sticky-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="nav navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Institute">Institute <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Departments">Departments</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Research">Research</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Students">Students</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Academics">Academics</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Facilities">Facilities</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Admin" target="_self">Admin</a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#" target="_blank">Login</a></li>
+                            <!--<li><a class="dropdown-item" href="staff_login.php" target="_blank">Staff</a></li>
+                            <li><a class="dropdown-item" href="student_login.php" target="_blank">Student</a></li>-->
+                      <li><a class="dropdown-item" href="#" target="_blank">Enroll</a></li>                      
+                  </ul>
+                </li>
+              </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div id="carslide" class="carousel slide carousel-fade" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carslide" data-slide-to="0" class="active"></li>
+                            <li data-target="#carslide" data-slide-to="1"></li>
+                            <li data-target="#carslide" data-slide-to="2"></li>
+                            <li data-target="#carslide" data-slide-to="3"></li>
+                            <li data-target="#carslide" data-slide-to="4"></li>
+                            <li data-target="#carslide" data-slide-to="5"></li>
+                            <li data-target="#carslide" data-slide-to="6"></li>
+                            <li data-target="#carslide" data-slide-to="7"></li>
+                            <li data-target="#carslide" data-slide-to="8"></li>
+                            <li data-target="#carslide" data-slide-to="9"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox" id="images">
+                            <div class="carousel-item active">
+                                <img src="images/iiserb-selfie-point.jpg" class="img-thumbnail" title="IISERB-Selfie-Point"/>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <p>IISERB Selfie Point</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/Outreach-Program-2019.jpg" class="img-thumbnail" title="Outreach Programme"/>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <p>Outreach Programme</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/sixth-convocation.jpg" class="img-thumbnail" title="Sixth Convocation"/>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <p>Sixth Convocation</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/Building-Pictures.jpg" class="img-thumbnail" title="Academic Building"/>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <p>Academic Building</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/Visitors-Hostel.png" class="img-thumbnail" title="Visitor's Hostel"/>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <p>Visitor's Hostel</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/Brain-Space-Ideation-Hut.jpg" class="img-thumbnail" title="Brain Space & Ideation Hut"/>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <p>Brain Space & Ideation Hut</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/enthuzia.png" class="img-thumbnail" title="Enthuzia Cultural Night"/>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <p>Enthuzia Cultural Night</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/Alumni-Meet01-Jan-19-2019.jpg" class="img-thumbnail" title="Alumni Meet Concert"/>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <p>Alumni Meet Concert</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/lhc1.jpg" class="img-thumbnail" title="Lecture Hall Complex"/>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <p>Lecture Hall Complex</p>
+                                </div>
+                            </div>                      
+                            <div class="carousel-item">
+                                <img src="images/lhc2.jpg" class="img-thumbnail" title="Lecture Hall Complex"/>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <p>Lecture Hall Complex</p>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carslide" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carslide" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4"><br/>
+                    <marquee width="100%" height="250px" direction="up">
+                        <h3>Latest News</h3>
+                        <hr color="#A9A9A9"/>
+                        <ul class="marquee">
+                            <li><span class="badge badge-warning">New</span> IISER Bhopal has secured 37th rank in the overall ranking of <a href="https://www.nirfindia.org/2019/OverallRanking.html" target="_blank">National Institutional Ranking Framework</a> (NIRF) announced by the MHRD, GoI.</li><br/>
+                            <li><span class="badge badge-warning">New</span> IISER Bhopal will start the four year BS Program in <a href="https://dse.iiserb.ac.in/" target="_blank">Data Science and Engineering</a> from the semester beginning August 2019.</li><br/>
+                            <li><a href="https://bio.iiserb.ac.in/faculty_profile.php?id=MTM=&lname=dmluZWV0a3M=" target="_blank">Dr. Vineet K. Sharma’s</a> group research work on <a href="https://academic.oup.com/gigascience/article/8/3/giz004/5304367" target="_blank">Indian Gut Microbiome</a> published in GigaScience journal has been widely highlighted.</li><br/>
+                            <li><a href="http://home.iiserb.ac.in/~kumarp/index.html" target="_blank">Dr. Pankaj Kumar</a> has been nominated as a member of the Editorial Board of Journal of Climate Services. He has also been selected as a Chairman of India Meteorological Society Bhopal chapter.</li><br/>
+                            <li><a href="https://bio.iiserb.ac.in/faculty_profile.php?id=NA==&lname=bWFoYQ==" target="_blank">Dr. R. Mahalakshmi</a> has been conferred with the Young Scientist Award 2019 by the Indian Peptide Society.</li>
+                        </ul>
+                    </marquee>
+                </div>
+                <div class="col-lg-8">
+                    <p align="center"><iframe width="500" height="275" src="https://www.youtube.com/embed/qARgX3vD_lo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+                </div>
+                <div class="col-lg-4">
+                    <br/><h4>Bulletin Board</h4>
+                    <hr color="#A9A9A9">
+                    <p id="buttons"><a class="btn btn-secondary btn-sm" href="#" role="button" aria-pressed="true" target="_blank"><strong>Admissions 2019</strong></a>
+                    <a class="btn btn-secondary btn-sm" href="#" role="button" aria-pressed="true" target="_blank">Outreach Programme</a>
+                    <a class="btn btn-secondary btn-sm" href="#" role="button" aria-pressed="true" target="_blank">Gallery</a><br/><br/>
+                    <a class="btn btn-secondary btn-sm" href="#" role="button" aria-pressed="true" target="_blank">Staff Vacancies</a>
+                    <a class="btn btn-secondary btn-sm" href="#" role="button" aria-pressed="true" target="_blank">Faculty Positions</a>
+                    <a class="btn btn-secondary btn-sm" href="#" role="button" aria-pressed="true" target="_blank">Holidays</a><br/><br/>
+                    <a class="btn btn-secondary btn-sm" href="#" role="button" aria-pressed="true" target="_blank">Donate to IISERB</a>
+                    <a class="btn btn-secondary btn-sm" href="#" role="button" aria-pressed="true" target="_blank">Tender</a>
+                    <a class="btn btn-secondary btn-sm" href="#" role="button" aria-pressed="true" target="_blank">Bus Schedule</a></p>
+                </div>
+            </div>
+        </div><br/><br/>
+        <div class="footer">
+          <div class="row">
+              <div class="col-md-9">
+                Copyright © 2019 Indian Institute of Science Education and Research Bhopal. All rights reserved. Designed by Sarthak Mishra @_nusart_ 
+              </div>
+              <div class="col-md-3">
+                  <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png"/></a>&nbsp;
+                  <a href="https://twitter.com/Twitter?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="images/twitter.png"/></a>&nbsp;
+                  <a href="https://in.linkedin.com/" target="_blank"><img src="images/linkedin.png"/></a>&nbsp;
+                  <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube.png"/></a>
+              </div>
+            </div>
+        </div>
+    </body>
+</html>

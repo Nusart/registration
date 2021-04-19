@@ -1,0 +1,110 @@
+body
+{
+    background-color: #fdf5e6;
+}
+.container
+{
+    margin: 20px 100px;
+}
+#search
+{
+    border-radius: 15px;
+    border-width: thin;
+}
+#home_webmail a
+{
+    color: #000;
+    font-size: 16px;
+}
+.navbar
+{
+    background-color: #8c0000 !important;
+}
+.navbar .navbar-collapse
+{
+    height: 40px;
+    margin: 0px 100px;
+}
+.navbar .navbar-nav li a
+{
+    color: #000;
+}
+ul.nav li.dropdown:hover ul.dropdown-menu 
+{
+    display: block;    
+}
+ul.nav li.dropdown:hover
+{
+    background-color: #5e1011;    
+}
+ul.nav li.dropdown a:hover
+{
+    color: #FFF;
+}
+ul.nav li.dropdown
+{
+    padding: 0px 40px 0px 40px;
+}
+.dropdown-item
+{
+    color: #000;
+}
+.dropdown-item:hover
+{
+    background-color: #5e1011 !important;
+    color: #FFF;
+}
+.img-responsive 
+{
+    height: auto;
+    width: auto;
+    max-height: 500px;
+    max-width: 500px;
+}
+.img-thumbnail
+{
+    width: 100%;
+}
+.footer
+{
+    left: 0;
+    bottom: 0;
+    height: 25px;
+    width: 100%;
+    text-align: center;
+    background-color: dimgray;
+    color: ghostwhite;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+marquee
+{
+    text-align: center;
+}
+marquee ul.marquee li
+{
+    list-style-image: url(images/fountain-pen.png);
+}
+h3
+{
+    color: #8B0023;
+}
+iframe
+{
+    text-align: center;
+}
+h4
+{
+    text-align: center;
+    color: #8B0023;
+}
+.btn
+{
+    color: black;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+}
+#buttons
+{
+    text-align: justify;
+}
